@@ -2,6 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@faustbrian/node-deterministic-array-shuffle': ^1.0.0
+  '@faustbrian/node-proof-of-work': ^1.0.0
   '@faustbrian/node-sha256': ^1.0.0
   '@faustbrian/stdlint': ^1.0.0
   '@sindresorhus/tsconfig': ^2.0.0
@@ -14,6 +15,7 @@ specifiers:
 
 dependencies:
   '@faustbrian/node-deterministic-array-shuffle': 1.0.0
+  '@faustbrian/node-proof-of-work': 1.0.0
   '@faustbrian/node-sha256': 1.0.0
 
 devDependencies:
@@ -414,6 +416,13 @@ packages:
 
   /@faustbrian/node-deterministic-array-shuffle/1.0.0:
     resolution: {integrity: sha512-p0u4TMgsWvh5bYrWxra55+ZW+X4hlyeph0WEuYH2+My5kssmEx8OM0GNb+eVw1sYYq+yzIDGL9AKKn6xkakaLA==}
+    engines: {node: '>=12'}
+    dependencies:
+      '@faustbrian/node-sha256': 1.0.0
+    dev: false
+
+  /@faustbrian/node-proof-of-work/1.0.0:
+    resolution: {integrity: sha512-T1o4mJJVa3tJccVIT8laQAQVAMGAocJxLH9rzxXyuEOXTLZTqQYx9uVITNLRDP1tXXfZSZ9wVQDkEZLCULoMmg==}
     engines: {node: '>=12'}
     dependencies:
       '@faustbrian/node-sha256': 1.0.0

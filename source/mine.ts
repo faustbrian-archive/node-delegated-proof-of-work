@@ -1,5 +1,6 @@
+import { work } from "@faustbrian/node-proof-of-work";
+
 import { IValidator } from "./validator";
-import { work } from "./work";
 
 export const mine = ({
   height,
